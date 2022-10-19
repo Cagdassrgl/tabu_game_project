@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tabu_game_projects/model/team_model.dart';
+import 'package:tabu_game_projects/view/oyun.dart';
 
 // ignore: must_be_immutable
 class InfoPage extends StatelessWidget {
@@ -12,7 +13,7 @@ class InfoPage extends StatelessWidget {
     Size size = MediaQuery.of(context).size;
 
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: Colors.white,
       body: Center(
         child: Container(
           alignment: Alignment.center,
@@ -77,7 +78,14 @@ class InfoPage extends StatelessWidget {
                 height: 64,
               ),
               ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const OyunPage(),
+                    ),
+                  );
+                },
                 child: const Text(
                   "DEVAM",
                   style: TextStyle(

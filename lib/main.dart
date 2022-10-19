@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:tabu_game_projects/core/constants/app_const.dart';
+import 'package:tabu_game_projects/providers/game_provider.dart';
 import 'package:tabu_game_projects/providers/home_provider.dart';
 import 'package:tabu_game_projects/providers/info_provider.dart';
 import 'package:tabu_game_projects/view/giris.dart';
@@ -21,6 +22,9 @@ class MyApp extends StatelessWidget {
         ),
         ChangeNotifierProvider(
           create: (context) => InfoProvider(),
+        ),
+        ChangeNotifierProvider(
+          create: (context) => GameProvider(),
         )
       ],
       child: const MaterialApp(
