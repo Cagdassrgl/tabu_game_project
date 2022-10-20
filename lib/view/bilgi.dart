@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:tabu_game_projects/model/team_model.dart';
+import 'package:tabu_game_projects/providers/game_provider.dart';
+import 'package:tabu_game_projects/view/giris.dart';
 import 'package:tabu_game_projects/view/oyun.dart';
 
 // ignore: must_be_immutable
@@ -11,6 +14,8 @@ class InfoPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
+
+    var state = Provider.of<GameProvider>(context, listen: false);
 
     return Scaffold(
       backgroundColor: Colors.white,
@@ -54,15 +59,25 @@ class InfoPage extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  Text(
-                    "${teamA.teamSkore}",
-                    style: const TextStyle(
-                        fontSize: 24, fontWeight: FontWeight.w600),
+                  Row(
+                    children: [
+                      Text(
+                        "${teamA.teamSkore}",
+                        style: const TextStyle(
+                            fontSize: 24, fontWeight: FontWeight.w600),
+                      ),
+                      if (teamA.teamSkore! >= 25) const Icon(Icons.check)
+                    ],
                   ),
-                  Text(
-                    "${teamB.teamSkore}",
-                    style: const TextStyle(
-                        fontSize: 24, fontWeight: FontWeight.w600),
+                  Row(
+                    children: [
+                      Text(
+                        "${teamB.teamSkore}",
+                        style: const TextStyle(
+                            fontSize: 24, fontWeight: FontWeight.w600),
+                      ),
+                      if (teamB.teamSkore! >= 25) const Icon(Icons.check)
+                    ],
                   ),
                 ],
               ),
@@ -79,16 +94,31 @@ class InfoPage extends StatelessWidget {
               ),
               ElevatedButton(
                 onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => OyunPage(),
-                    ),
-                  );
+                  if (teamA.teamSkore! >= 25 || teamB.teamSkore! >= 25) {
+                    state.teamA.teamSkore = 0;
+                    state.teamB.teamSkore = 0;
+                    state.statusTeam = true;
+
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const HomePage(),
+                      ),
+                    );
+                  } else {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const OyunPage(),
+                      ),
+                    );
+                  }
                 },
-                child: const Text(
-                  "DEVAM",
-                  style: TextStyle(
+                child: Text(
+                  teamA.teamSkore! >= 25 || teamB.teamSkore! >= 25
+                      ? "Ana Menü"
+                      : "Devam",
+                  style: const TextStyle(
                     fontSize: 24,
                     fontWeight: FontWeight.bold,
                   ),

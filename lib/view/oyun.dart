@@ -53,21 +53,15 @@ class _OyunPageState extends State<OyunPage> {
                       interval: const Duration(milliseconds: 100),
                       onFinished: () {
                         value.statusTeam = !value.statusTeam;
-                        if (value.teamA.teamSkore! >= 25) {
-                          debugPrint("A kazandı");
-                        } else if (value.teamB.teamSkore! >= 25) {
-                          debugPrint("B kazandı");
-                        } else {
-                          debugPrint("else");
-
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => InfoPage(
-                                  teamA: value.teamA, teamB: value.teamB),
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => InfoPage(
+                              teamA: value.teamA,
+                              teamB: value.teamB,
                             ),
-                          );
-                        }
+                          ),
+                        );
                       },
                     )
                   ],
