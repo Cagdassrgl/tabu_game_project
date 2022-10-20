@@ -6,7 +6,7 @@ import 'package:tabu_game_projects/view/bilgi.dart';
 import 'package:timer_count_down/timer_count_down.dart';
 
 class OyunPage extends StatefulWidget {
-  OyunPage({super.key});
+  const OyunPage({super.key});
 
   @override
   State<OyunPage> createState() => _OyunPageState();
@@ -16,6 +16,8 @@ class _OyunPageState extends State<OyunPage> {
   @override
   void initState() {
     super.initState();
+    var state = Provider.of<GameProvider>(context, listen: false);
+    state.pass = 3;
   }
 
   @override
@@ -31,6 +33,7 @@ class _OyunPageState extends State<OyunPage> {
       backgroundColor: Colors.white,
       body: Consumer<GameProvider>(
         builder: (context, value, child) {
+          //int random = value.randomGenerator();
           return Column(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
@@ -44,19 +47,27 @@ class _OyunPageState extends State<OyunPage> {
                     Text(
                         "SKOR: ${value.statusTeam ? value.teamA.teamSkore : value.teamB.teamSkore}"),
                     Countdown(
-                      seconds: 60,
+                      seconds: 10,
                       build: (BuildContext context, double time) =>
                           Text(time.toString()),
                       interval: const Duration(milliseconds: 100),
                       onFinished: () {
                         value.statusTeam = !value.statusTeam;
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => InfoPage(
-                                teamA: value.teamA, teamB: value.teamB),
-                          ),
-                        );
+                        if (value.teamA.teamSkore! >= 25) {
+                          debugPrint("A kazandı");
+                        } else if (value.teamB.teamSkore! >= 25) {
+                          debugPrint("B kazandı");
+                        } else {
+                          debugPrint("else");
+
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => InfoPage(
+                                  teamA: value.teamA, teamB: value.teamB),
+                            ),
+                          );
+                        }
                       },
                     )
                   ],
@@ -80,20 +91,18 @@ class _OyunPageState extends State<OyunPage> {
                         color: Colors.blue.shade200,
                         child: ListTile(
                           title: Center(
-                            child: Text(Words
-                                .words[value.randomGenerator()]!.keys.first),
+                            child: Text(Words.words[0]!.keys.first),
                           ),
                         ),
                       ),
                       ListView.builder(
                         shrinkWrap: true,
-                        itemCount: Words.words[value.randomGenerator()]!.values
-                            .first.length,
+                        itemCount: Words.words[0]!.values.first.length,
                         itemBuilder: (context, index) {
                           return ListTile(
                             style: ListTileStyle.drawer,
                             title: Center(
-                              child: Text(Words.words[1]!.values.first[index]),
+                              child: Text(Words.words[0]!.values.first[index]),
                             ),
                           );
                         },
@@ -112,8 +121,13 @@ class _OyunPageState extends State<OyunPage> {
                     child: const Text("TABU"),
                   ),
                   ElevatedButton(
-                    onPressed: () {},
-                    child: const Text("PAS"),
+                    onPressed: () {
+                      if (value.pass == 0) {
+                        return;
+                      }
+                      value.decrementPass();
+                    },
+                    child: Text("PAS ${value.pass.toString()}"),
                   ),
                   ElevatedButton(
                     onPressed: () {
