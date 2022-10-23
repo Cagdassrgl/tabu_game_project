@@ -15,9 +15,11 @@ class GameProvider with ChangeNotifier {
   bool statusTeam = true;
 
   int pass = 3;
+  late int random;
 
   int randomGenerator() {
-    int random = Random().nextInt(1);
+    int random = Random().nextInt(51);
+    debugPrint("##### $random #####");
     notifyListeners();
 
     return random;
@@ -29,6 +31,7 @@ class GameProvider with ChangeNotifier {
     } else {
       teamB.teamSkore = teamB.teamSkore! + 1;
     }
+
     notifyListeners();
   }
 
@@ -42,11 +45,7 @@ class GameProvider with ChangeNotifier {
   }
 
   void decrementPass() {
-    if (statusTeam) {
-      pass--;
-    } else {
-      pass--;
-    }
+    pass--;
     notifyListeners();
   }
 }

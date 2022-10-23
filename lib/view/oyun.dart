@@ -13,11 +13,14 @@ class OyunPage extends StatefulWidget {
 }
 
 class _OyunPageState extends State<OyunPage> {
+  late int random;
+
   @override
   void initState() {
     super.initState();
     var state = Provider.of<GameProvider>(context, listen: false);
     state.pass = 3;
+    random = state.randomGenerator();
   }
 
   @override
@@ -33,7 +36,6 @@ class _OyunPageState extends State<OyunPage> {
       backgroundColor: Colors.white,
       body: Consumer<GameProvider>(
         builder: (context, value, child) {
-          //int random = value.randomGenerator();
           return Column(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
@@ -85,18 +87,19 @@ class _OyunPageState extends State<OyunPage> {
                         color: Colors.blue.shade200,
                         child: ListTile(
                           title: Center(
-                            child: Text(Words.words[0]!.keys.first),
+                            child: Text(Words.words[random]!.keys.first),
                           ),
                         ),
                       ),
                       ListView.builder(
                         shrinkWrap: true,
-                        itemCount: Words.words[0]!.values.first.length,
+                        itemCount: Words.words[random]!.values.first.length,
                         itemBuilder: (context, index) {
                           return ListTile(
                             style: ListTileStyle.drawer,
                             title: Center(
-                              child: Text(Words.words[0]!.values.first[index]),
+                              child: Text(
+                                  Words.words[random]!.values.first[index]),
                             ),
                           );
                         },
@@ -111,6 +114,7 @@ class _OyunPageState extends State<OyunPage> {
                   ElevatedButton(
                     onPressed: () {
                       value.decrementScore();
+                      random = value.randomGenerator();
                     },
                     child: const Text("TABU"),
                   ),
@@ -120,12 +124,14 @@ class _OyunPageState extends State<OyunPage> {
                         return;
                       }
                       value.decrementPass();
+                      random = value.randomGenerator();
                     },
                     child: Text("PAS ${value.pass.toString()}"),
                   ),
                   ElevatedButton(
                     onPressed: () {
                       value.incrementScore();
+                      random = value.randomGenerator();
                     },
                     child: const Text("DOĞRU"),
                   )
