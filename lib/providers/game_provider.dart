@@ -17,8 +17,16 @@ class GameProvider with ChangeNotifier {
   int pass = 3;
   late int random;
 
+  List<int> randomWords = [];
+
   int randomGenerator() {
-    int random = Random().nextInt(51);
+    int random = Random().nextInt(50);
+
+    while (randomWords.contains(random)) {
+      random = Random().nextInt(50);
+      return random;
+    }
+    randomWords.add(random);
     notifyListeners();
 
     return random;

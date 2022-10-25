@@ -98,6 +98,7 @@ class InfoPage extends StatelessWidget {
                     state.teamA.teamSkore = 0;
                     state.teamB.teamSkore = 0;
                     state.statusTeam = true;
+                    state.randomWords = [];
 
                     Navigator.push(
                       context,
