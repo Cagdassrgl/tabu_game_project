@@ -521,193 +521,193 @@ class Words {
       ]
     },
     52: {
-      "Şenol Güneş": [
-        "Trabzonspor",
-        "Beşiktaş",
-        "Kaleci",
-        "Teknik Direktör",
-        "Fatih Terim",
-        "Filozof"
+      "Giovanni Simeone": [
+        "Napoli",
+        "Hellas Verona",
+        "Forvet",
+        "Diego Simeone",
+        "Arjantin",
+        "CL Dövmesi"
       ]
     },
     53: {
-      "Şenol Güneş": [
-        "Trabzonspor",
+      "Cenk Tosun": [
+        "Gaziantepspor",
         "Beşiktaş",
-        "Kaleci",
-        "Teknik Direktör",
-        "Fatih Terim",
-        "Filozof"
+        "Benfica",
+        "Everton",
+        "3-3",
+        "Forvet"
       ]
     },
     54: {
-      "Şenol Güneş": [
-        "Trabzonspor",
+      "Anderson Talisca": [
+        "Çin",
         "Beşiktaş",
-        "Kaleci",
-        "Teknik Direktör",
-        "Fatih Terim",
-        "Filozof"
+        "Frikik",
+        "Brezilya",
+        "Benfica",
+        "Al Nasr"
       ]
     },
     55: {
-      "Şenol Güneş": [
-        "Trabzonspor",
+      "Vincent Aboubakar": [
+        "Porto",
         "Beşiktaş",
-        "Kaleci",
-        "Teknik Direktör",
-        "Fatih Terim",
-        "Filozof"
+        "Forvet",
+        "Talisca",
+        "Diz Sakatlığı",
+        "Al Nasr"
       ]
     },
     56: {
-      "Şenol Güneş": [
-        "Trabzonspor",
-        "Beşiktaş",
-        "Kaleci",
-        "Teknik Direktör",
-        "Fatih Terim",
-        "Filozof"
+      "Irfancan Kahveci": [
+        "Başakşehir",
+        "Fenerbahçe",
+        "Gençlerbirliği",
+        "Hurşit Meriç",
+        "Fake Çalım",
+        "Ankara"
       ]
     },
     57: {
-      "Şenol Güneş": [
-        "Trabzonspor",
-        "Beşiktaş",
-        "Kaleci",
-        "Teknik Direktör",
-        "Fatih Terim",
-        "Filozof"
+      "Mert Hakan Yandaş": [
+        "Sivasspor",
+        "Emre Kılınç",
+        "Rıza Çalımbay",
+        "Fenerbahçe",
+        "Ortasaha",
+        "Hırs"
       ]
     },
     58: {
-      "Şenol Güneş": [
-        "Trabzonspor",
-        "Beşiktaş",
-        "Kaleci",
-        "Teknik Direktör",
-        "Fatih Terim",
-        "Filozof"
+      "Emre Kılınç": [
+        "Galatasaray",
+        "Rıza Çalımbay",
+        "Ankaragücü",
+        "Sivasspor",
+        "Mert Hakan Yandaş",
+        "Kanat"
       ]
     },
     59: {
-      "Şenol Güneş": [
-        "Trabzonspor",
-        "Beşiktaş",
+      "Altay Bayındır": [
+        "Fenerbahçe",
+        "Ankaragücü",
         "Kaleci",
-        "Teknik Direktör",
-        "Fatih Terim",
-        "Filozof"
+        "Kaptan",
+        "Uğurcan Çakır",
+        "Milli Takım"
       ]
     },
     60: {
-      "Şenol Güneş": [
+      "Uğurcan Çakır": [
         "Trabzonspor",
-        "Beşiktaş",
+        "Altyapı",
         "Kaleci",
-        "Teknik Direktör",
-        "Fatih Terim",
-        "Filozof"
+        "Milli Takım",
+        "Altay Bayındır",
+        "Abdullah Avcı"
       ]
     },
     61: {
-      "Şenol Güneş": [
+      "Yusuf Yazıcı": [
         "Trabzonspor",
-        "Beşiktaş",
-        "Kaleci",
-        "Teknik Direktör",
-        "Fatih Terim",
-        "Filozof"
+        "Lille",
+        "CSKA Moskova",
+        "10 Numara",
+        "Abdülkadir Ömür",
+        "Zeki Çelik"
       ]
     },
     62: {
-      "Şenol Güneş": [
+      "Abdülkadir Ömür": [
         "Trabzonspor",
-        "Beşiktaş",
-        "Kaleci",
-        "Teknik Direktör",
-        "Fatih Terim",
-        "Filozof"
+        "Altyapı",
+        "10 Numara",
+        "Benfica",
+        "25m €",
+        "Yusuf Yazıcı"
       ]
     },
     63: {
-      "Şenol Güneş": [
-        "Trabzonspor",
-        "Beşiktaş",
-        "Kaleci",
-        "Teknik Direktör",
-        "Fatih Terim",
-        "Filozof"
+      "Luis Suarez": [
+        "Barcelona",
+        "Ajax",
+        "Liverpool",
+        "MSN",
+        "Uruguay",
+        "Isırmak"
       ]
     },
     64: {
-      "Şenol Güneş": [
-        "Trabzonspor",
-        "Beşiktaş",
-        "Kaleci",
-        "Teknik Direktör",
-        "Fatih Terim",
-        "Filozof"
+      "Ruben Dias": [
+        "Benfica",
+        "Defans",
+        "Virgil Van Dijk",
+        "Man City",
+        "Kaptan",
+        "Portekiz"
       ]
     },
     65: {
-      "Şenol Güneş": [
-        "Trabzonspor",
-        "Beşiktaş",
-        "Kaleci",
-        "Teknik Direktör",
-        "Fatih Terim",
-        "Filozof"
+      "Virgil Van Dijk": [
+        "Liverpool",
+        "Celtic",
+        "Southampton",
+        "Defans",
+        "Hollanda",
+        "75m €"
       ]
     },
     66: {
-      "Şenol Güneş": [
-        "Trabzonspor",
+      "Oğuzhan Özyakup": [
+        "Arsenal",
         "Beşiktaş",
-        "Kaleci",
-        "Teknik Direktör",
-        "Fatih Terim",
-        "Filozof"
+        "Hollanda",
+        "Atiba H.",
+        "Jose Sosa",
+        "150 milyon"
       ]
     },
     67: {
-      "Şenol Güneş": [
-        "Trabzonspor",
+      "Atiba H.": [
+        "PSV",
         "Beşiktaş",
-        "Kaleci",
-        "Teknik Direktör",
-        "Fatih Terim",
-        "Filozof"
+        "Ahtapot",
+        "Jose Sosa",
+        "Ozzy",
+        "Kaptan",
       ]
     },
     68: {
-      "Şenol Güneş": [
-        "Trabzonspor",
+      "Mario Gomez": [
+        "Bayern Münih",
         "Beşiktaş",
-        "Kaleci",
-        "Teknik Direktör",
-        "Fatih Terim",
-        "Filozof"
+        "Forvet",
+        "Eyşan",
+        "Ezel",
+        "Wolfsburg"
       ]
     },
     69: {
-      "Şenol Güneş": [
-        "Trabzonspor",
+      "Timo Werner": [
+        "Redbul Leipzig",
         "Beşiktaş",
-        "Kaleci",
-        "Teknik Direktör",
-        "Fatih Terim",
-        "Filozof"
+        "Forvet",
+        "Chelsea",
+        "Islık",
+        "Vodafone Arena"
       ]
     },
     70: {
-      "Şenol Güneş": [
-        "Trabzonspor",
+      "Domagoj Vida": [
+        "Dinamo Kiev",
         "Beşiktaş",
-        "Kaleci",
-        "Teknik Direktör",
-        "Fatih Terim",
-        "Filozof"
+        "Sarışın",
+        "Derbi Golcüsü",
+        "Defans",
+        "Hırvatistan"
       ]
     },
     71: {

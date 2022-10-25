@@ -19,7 +19,6 @@ class GameProvider with ChangeNotifier {
 
   int randomGenerator() {
     int random = Random().nextInt(51);
-    debugPrint("##### $random #####");
     notifyListeners();
 
     return random;
