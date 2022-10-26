@@ -711,123 +711,123 @@ class Words {
       ]
     },
     71: {
-      "Şenol Güneş": [
-        "Trabzonspor",
-        "Beşiktaş",
-        "Kaleci",
-        "Teknik Direktör",
-        "Fatih Terim",
-        "Filozof"
+      "Kylian Mbappe": [
+        "Monaco",
+        "Ninja Kaplumbağa",
+        "PSG",
+        "Neymar",
+        "CR7",
+        "Fransa"
       ]
     },
     72: {
-      "Şenol Güneş": [
-        "Trabzonspor",
-        "Beşiktaş",
+      "Gianluigi Donnaruma": [
+        "Milan",
+        "PSG",
         "Kaleci",
-        "Teknik Direktör",
-        "Fatih Terim",
-        "Filozof"
+        "Italya",
+        "16 Yaş",
+        "Buffon"
       ]
     },
     73: {
-      "Şenol Güneş": [
-        "Trabzonspor",
+      "Romain Saiss": [
+        "Wolves",
         "Beşiktaş",
-        "Kaleci",
-        "Teknik Direktör",
-        "Fatih Terim",
-        "Filozof"
+        "Defans",
+        "Solak",
+        "Fas",
+        "Defansif Ortasaha"
       ]
     },
     74: {
-      "Şenol Güneş": [
-        "Trabzonspor",
-        "Beşiktaş",
-        "Kaleci",
-        "Teknik Direktör",
-        "Fatih Terim",
-        "Filozof"
+      "Alex De Souza": [
+        "Fenerbahçe",
+        "Brezilya",
+        "10 Numara",
+        "Aykut Kocaman",
+        "Corintias",
+        "Aziz Yıldırım"
       ]
     },
     75: {
-      "Şenol Güneş": [
-        "Trabzonspor",
-        "Beşiktaş",
-        "Kaleci",
-        "Teknik Direktör",
-        "Fatih Terim",
-        "Filozof"
+      "Semih Şentürk": [
+        "Fenerbahçe",
+        "Süper Yedek",
+        "Forvet",
+        "Nöbetçi Golcü",
+        "Milli Takım",
+        "Hırvatistan"
       ]
     },
     76: {
-      "Şenol Güneş": [
-        "Trabzonspor",
+      "Nihat Kahveci": [
+        "Villareal",
         "Beşiktaş",
-        "Kaleci",
-        "Teknik Direktör",
-        "Fatih Terim",
-        "Filozof"
+        "Real Sociedad",
+        "Çek Cumhuriyeti",
+        "Los Galacticos Baraj",
+        "Forvet"
       ]
     },
     77: {
-      "Şenol Güneş": [
+      "Selçuk Inan": [
         "Trabzonspor",
-        "Beşiktaş",
-        "Kaleci",
-        "Teknik Direktör",
-        "Fatih Terim",
-        "Filozof"
+        "Galatasaray",
+        "Ortasaha",
+        "Karam Tayfa",
+        "Arda Turan",
+        "Burak Yılmaz"
       ]
     },
     78: {
-      "Şenol Güneş": [
-        "Trabzonspor",
-        "Beşiktaş",
-        "Kaleci",
-        "Teknik Direktör",
-        "Fatih Terim",
-        "Filozof"
+      "Pedri": [
+        "Barcelona",
+        "Wonderkid",
+        "Iniesta",
+        "Ispanya",
+        "Las Palmas",
+        "72 Maç"
       ]
     },
     79: {
-      "Şenol Güneş": [
-        "Trabzonspor",
-        "Beşiktaş",
-        "Kaleci",
-        "Teknik Direktör",
-        "Fatih Terim",
-        "Filozof"
+      "Jude Bellingham": [
+        "Birmingham",
+        "Dortmund",
+        "Ortasaha",
+        "Ingiltere",
+        "19 Yaş",
+        "Bayern Münih"
       ]
     },
     80: {
-      "Şenol Güneş": [
-        "Trabzonspor",
-        "Beşiktaş",
-        "Kaleci",
-        "Teknik Direktör",
-        "Fatih Terim",
-        "Filozof"
+      "Phil Foden": [
+        "Man City",
+        "Erling Haaland",
+        "Ingiltere",
+        "Pep Guardiola",
+        "Yetenek",
+        "Tas Traşı"
       ]
     },
     81: {
-      "Şenol Güneş": [
-        "Trabzonspor",
-        "Beşiktaş",
-        "Kaleci",
-        "Teknik Direktör",
-        "Fatih Terim",
-        "Filozof"
+      "Harry Kane": [
+        "Heung Min Son",
+        "Tottenham",
+        "Ingiltere",
+        "Forvet",
+        "Man City",
+        "0 Kupa"
       ]
     },
     82: {
-      "Şenol Güneş": [
-        "Trabzonspor",
-        "Beşiktaş",
-        "Kaleci",
-        "Teknik Direktör",
-        "Fatih Terim",
-        "Filozof"
+      "Heung Min Son": [
+        "Güney Kore",
+        "Harry Kane",
+        "Kanat",
+        "Tottenham",
+        "Leverkusen",
+        "Kuzey"
       ]
     },
     83: {
